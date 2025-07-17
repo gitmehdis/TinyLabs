@@ -5,6 +5,9 @@ Tiny Labs is an interactive benchmarking framework for evaluating and enhancing 
 In this demo, we present a genomics Tiny Lab that models DNA sequences, mutations, and motif statistics. This “genomic lab” allows an LLM to propose experiments, analyze results, and infer underlying biological rules through three complementary demos.
 
 
+![Figure 1: Tiny Lab framework for probing scientific reasoning.](figure.png)
+
+
 ## Repository Structure
 
 * **`Properties.py`**
@@ -16,6 +19,10 @@ In this demo, we present a genomics Tiny Lab that models DNA sequences, mutation
 * **`Evolution.py`**
   LLM-guided sequence evolution framework. Models attractor dynamics in property space and lets the LLM discover convergence behavior by evolving sequences toward fixed points.
 
+
+## Technical Report
+
+You can refer to the full technical report for a detailed explanation of the Tiny Labs framework, along with an detailed analysis of the performance of various models across each of the challenges in the Genomics Tiny Lab environment.
 
 ## Requirements
 
@@ -38,42 +45,4 @@ pip install numpy scipy openai
 
 ## Usage
 
-### 1. Sequence Property Discovery
-
-```bash
-python Properties.py
-```
-
-### 2. Dynamical System Blind-Lab
-
-```bash
-python Dynamics.py
-```
-
-### 3. LLM-Guided Sequence Evolution
-
-```bash
-python Evolution.py
-```
-
-## Configuration
-
-Edit constants at the top of each script to customize sequence length, model name, randomness, etc.
-
-## Technical Report
-
-Compile the LaTeX report:
-
-```bash
-pdflatex TinyLabs.tex
-```
-
-## Citation
-
-If you use Tiny Labs in your work:
-
-> Mehdi Soleimanifar, “Tiny Labs: Interactive LLM-driven benchmarks for scientific reasoning,” Tech. Report, 2025.
-
-## License
-
-MIT License
+You can run ``` Properties.py```, ```Dynamics.py``` or ```Evolution.py``` Edit the constants at the top of each script to customize the sequence length, model name, randomness, and more."
