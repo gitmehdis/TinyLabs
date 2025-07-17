@@ -8,6 +8,10 @@ In this demo, we present a genomics Tiny Lab that models DNA sequences, mutation
 ![Figure 1: Tiny Lab framework for probing scientific reasoning.](figure.png)
 
 
+## Technical Report
+
+You can refer to the [full technical report](./Technical_Report.pdf) for a detailed explanation of the Tiny Labs framework, along with an detailed analysis of the performance of various models across each of the challenges in the Genomics Tiny Lab environment.
+
 ## Repository Structure
 
 * **`Properties.py`**
@@ -19,10 +23,6 @@ In this demo, we present a genomics Tiny Lab that models DNA sequences, mutation
 * **`Evolution.py`**
   LLM-guided sequence evolution framework. Models attractor dynamics in property space and lets the LLM discover convergence behavior by evolving sequences toward fixed points.
 
-
-## Technical Report
-
-You can refer to the full technical report for a detailed explanation of the Tiny Labs framework, along with an detailed analysis of the performance of various models across each of the challenges in the Genomics Tiny Lab environment.
 
 ## Requirements
 
