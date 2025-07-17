@@ -1,5 +1,7 @@
 # Tiny Labs: A Lightweight, Interactive Benchmark for AI-Driven Scientific Discovery
 
+![Python Support](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![CI Status](https://img.shields.io/badge/CI-passing-brightgreen)
+
 Tiny Labs is an interactive benchmarking framework for evaluating and enhancing scientific reasoning in large language models (LLMs). This repository focuses on DNA sequence dynamics and property inference. Each Tiny Lab defines a set of objects, measurable properties, and operators that together give rise to complex, emergent behaviors. Tiny Labs can be instantiated across different scientific domains (see the technical report for details).
 
 In this demo, we present a genomics Tiny Lab that models DNA sequences, mutations, and motif statistics. This “genomic lab” allows an LLM to propose experiments, analyze results, and infer underlying biological rules through three complementary demos.
