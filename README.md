@@ -26,10 +26,11 @@ You can refer to the [full technical report](./Technical_Report.pdf) for a detai
 
 ## Requirements
 
-* Python ≥ 3.8
-* `numpy`
-* `scipy`
-* `openai`
+Install dependencies:
+
+```bash
+pip install numpy scipy openai
+```
 
 Set your OpenAI API key in the environment:
 
@@ -37,11 +38,6 @@ Set your OpenAI API key in the environment:
 export OPENAI_API_KEY="sk-..."
 ```
 
-Install dependencies:
-
-```bash
-pip install numpy scipy openai
-```
 
 ## Usage
 
