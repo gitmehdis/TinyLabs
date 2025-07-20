@@ -10,7 +10,7 @@ from openai import OpenAI
 
 
 # --- Import Properties and Samplers ---
-from InferringProperties import Properties, Samplers, Helpers, O1_PROPERTIES, O2_SAMPLERS
+from Properties import Properties, Samplers, Helpers, O1_PROPERTIES, O2_SAMPLERS
 
 
 # --- OpenAI API Client ---
