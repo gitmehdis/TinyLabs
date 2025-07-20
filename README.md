@@ -1,6 +1,6 @@
 # Tiny Labs: A Lightweight, Interactive Benchmark for AI-Driven Scientific Discovery
 
-Tiny Labs is an interactive benchmarking framework for evaluating and enhancing scientific reasoning in large language models (LLMs). Each Tiny Lab defines a set of objects, measurable properties, and operators that together give rise to complex, emergent behaviors. Tiny Labs can be instantiated across different scientific domains (see the [technical report]((./Technical_Report.pdf)) for details).
+Tiny Labs is an interactive benchmarking framework for evaluating and enhancing scientific reasoning in large language models (LLMs). Each Tiny Lab defines a set of objects, measurable properties, and operators that together give rise to complex, emergent behaviors. Tiny Labs can be instantiated across different scientific domains (see the [technical report](./Technical_Report.pdf) for details).
 
 In this demo, we present a genomics Tiny Lab that models DNA sequences, mutations, and motif statistics. This “genomic lab” allows an LLM to propose experiments, analyze results, and infer underlying biologically inspired rules through three complementary demos.
 
